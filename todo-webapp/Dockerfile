@@ -5,5 +5,4 @@ WORKDIR /root/todo-webapp
 RUN yarn install
 
 EXPOSE 3000
-# ENV TODO_ENDPOINT http://todo:8000/
 CMD  yarn start
