@@ -34,7 +34,7 @@ services:
     build: ./todo-nginx
     container_name: nginx
     ports:
-    - 8080:80
+    - 8000:80
   redis:
     image: redis:6.0-alpine
     container_name: redis
