@@ -1,0 +1,17 @@
+# pack-refs with: peeled fully-peeled sorted 
+1cfe3cf3a45e2c1b292bd6b32434bf3b90a916dc refs/remotes/origin/R1-Fix-CORS
+868ad7ba286f8ab24bb02ccd090c10e69f8ee1dc refs/remotes/origin/master
+4e4a83784ced3ed1fb3ec4fc203a893372fdffef refs/tags/release-1
+^e8c300754b48e8e66a75d504996d57389632c4f1
+6f2930c2540de3fd8cd8960879005945ca4721ea refs/tags/release-1.1
+^e7b248c2fe2b473c77f3e0e1f74cca00768096ae
+e9d0d45cd95fbaa7c69f0ca9cb99dfc38c2609c0 refs/tags/release-1.2
+^3d99a488c6729cd4791f51e0196d224dd3292e78
+3daaa522362e94f0bdb5428a65cd1b70cb5f5f23 refs/tags/release-1.3
+^1cfe3cf3a45e2c1b292bd6b32434bf3b90a916dc
+b78ed8385dc75f0eff0ea29053fd390b046e2d14 refs/tags/release-2
+^45dfe8da2599f32dd2c7abfe32c2483eb0eaf82f
+5027cb139c23ac8f5ea34144bd7f2d32a6537c7f refs/tags/release-2.1
+^77f86230f326fc7f409f0d6f19a1ce001efd8cbe
+dc9c3666ca558e90f2d14327e09d6a9ce309fed8 refs/tags/release-3
+^868ad7ba286f8ab24bb02ccd090c10e69f8ee1dc

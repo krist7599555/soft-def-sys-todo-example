@@ -1,0 +1,42 @@
+version: "3.8"
+services:
+  todo:
+    # image: "todo:release-3"
+    build: ./todo
+    container_name: todo
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - NOTIFICATION_HOST=notification
+      - NOTIFICATION_PORT=9000
+    expose:
+      - 8000
+  webapp:
+    build: ./todo-webapp
+    container_name: webapp
+    stdin_open: true
+    environment:
+      - PORT=3000
+      - TODO_ENDPOINT=/todo
+      - NOTIFICATION_ENDPOINT=/notification 
+    expose:
+      - 3000
+  notification:
+    # image: "todo-notification:release-1.1"
+    build: ./todo-notification
+    container_name: notification
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    expose:
+      - 9000
+  nginx:
+    build: ./todo-nginx
+    container_name: nginx
+    ports:
+    - 8080:80
+  redis:
+    image: redis:6.0-alpine
+    container_name: redis
+  
+  

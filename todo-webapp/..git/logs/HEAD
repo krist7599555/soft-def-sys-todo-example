@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 9712aa4a6c57cd611b1081daab08888e5c1a3e60 Krist Pornpairin <krist7599555@gmail.com> 1602666880 +0700	clone: from https://github.com/natawutn/todo-webapp.git
+9712aa4a6c57cd611b1081daab08888e5c1a3e60 79928ab0e40dc59e2fef28335c4b108b266e7f46 Krist Pornpairin <krist7599555@gmail.com> 1602666880 +0700	checkout: moving from master to tags/release-1
+79928ab0e40dc59e2fef28335c4b108b266e7f46 9712aa4a6c57cd611b1081daab08888e5c1a3e60 Krist Pornpairin <krist7599555@gmail.com> 1603270359 +0700	checkout: moving from 79928ab0e40dc59e2fef28335c4b108b266e7f46 to release-3
+9712aa4a6c57cd611b1081daab08888e5c1a3e60 2df444aa54e9fc5e86cdcd91e5913eee7c1168e8 Krist Pornpairin <krist7599555@gmail.com> 1603271831 +0700	commit: update new endpoint
